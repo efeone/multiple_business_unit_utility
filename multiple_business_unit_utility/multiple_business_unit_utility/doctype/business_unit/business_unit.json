@@ -1,0 +1,82 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2024-01-15 11:17:06.172797",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "business_unit_name",
+  "owners_details",
+  "column_break_8lzvk",
+  "address",
+  "location",
+  "section_break_vhee0",
+  "business_unit_defaults"
+ ],
+ "fields": [
+  {
+   "fieldname": "business_unit_name",
+   "fieldtype": "Data",
+   "label": "Business Unit Name"
+  },
+  {
+   "fieldname": "address",
+   "fieldtype": "Link",
+   "label": "Address",
+   "options": "Address"
+  },
+  {
+   "fieldname": "location",
+   "fieldtype": "Link",
+   "label": "Location",
+   "options": "Location"
+  },
+  {
+   "fieldname": "owners_details",
+   "fieldtype": "Data",
+   "label": "Owners Details"
+  },
+  {
+   "fieldname": "business_unit_defaults",
+   "fieldtype": "Table",
+   "label": "Business Unit Defaults",
+   "options": "Business Unit Defaults"
+  },
+  {
+   "fieldname": "column_break_8lzvk",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "section_break_vhee0",
+   "fieldtype": "Section Break"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2024-01-15 11:31:32.919481",
+ "modified_by": "Administrator",
+ "module": "Multiple Business Unit Utility",
+ "name": "Business Unit",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "quick_entry": 1,
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": [],
+ "track_changes": 1
+}
